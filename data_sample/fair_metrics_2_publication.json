@@ -1,0 +1,840 @@
+{
+    "_id": "d17fc357eb7eb4a8bb8e47dd5ce4a69cc67e8644",
+    "subject": "https://doi.org/10.1145/3184558.3191543",
+    "collection": "fair-enough-metadata",
+    "created_at": "2023-09-03T10:33:28",
+    "name": "CrowdED - CrowdED - Evaluation of https://doi.org/10.1145/3184558.3191543",
+    "metadata": {
+        "title": [
+            "CrowdED"
+        ]
+    },
+    "score": 10,
+    "score_max": 16,
+    "score_percent": 62.5,
+    "@type": "http://semanticscience.org/resource/ProcessStatus",
+    "@context": {
+        "eval": "http://w3id.org/FAIR_Evaluator/schema#",
+        "prov": "https://www.w3.org/ns/prov#",
+        "dct": "http://purl.org/dc/terms/",
+        "schema": "http://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sio": "http://semanticscience.org/resource/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "_id": "http://purl.org/dc/terms/identifier",
+        "title": "http://purl.org/dc/terms/title",
+        "name": "https://schema.org/name",
+        "description": "http://rdfs.org/ns/void#description",
+        "homepage": "http://www.w3.org/ns/dcat#publisher",
+        "author": "http://purl.org/dc/elements/1.1/authoredBy",
+        "creator": "http://purl.org/dc/terms/creator",
+        "created": "http://purl.org/pav/version",
+        "assessments": "http://www.w3.org/ns/ldp#contains",
+        "contains": "http://www.w3.org/ns/ldp#contains",
+        "license": "http://purl.org/dc/terms/license",
+        "duration": "https://schema.org/duration",
+        "summary": "http://semanticscience.org/resource/isDescribedBy",
+        "subject": "http://semanticscience.org/resource/SIO_000332",
+        "collection": "http://www.w3.org/ns/ldp#contains",
+        "created_at": "http://purl.obolibrary.org/obo/date",
+        "score": "http://semanticscience.org/resource/SIO_000300",
+        "score_max": "http://semanticscience.org/resource/hasCapability",
+        "score_percent": "http://semanticscience.org/resource/hasConcretization",
+        "metadata": "http://semanticscience.org/resource/metadata"
+    },
+    "contains": {
+        "https://w3id.org/fair-enough/metrics/tests/a1-metadata-authorization": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a1-metadata-authorization#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Checking if the resource identifier https://doi.org/10.1145/3184558.3191543 uses a valid protocol that enables authorization, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nSUCCESS: [2023-09-03T10:33:18] The resource https://doi.org/10.1145/3184558.3191543 uses a valid protocol that enables authorization",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-unique": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f1-metadata-identifier-unique#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Checking if the resource identifier https://doi.org/10.1145/3184558.3191543 uses a valid protocol, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nSUCCESS: [2023-09-03T10:33:18] The resource https://doi.org/10.1145/3184558.3191543 uses a valid protocol",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-persistent": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f1-metadata-identifier-persistent#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Check if the given resource URI https://doi.org/10.1145/3184558.3191543 use a persistent URI, one of: doi.org, purl.org, purl.oclc.org, purl.net, purl.com, identifiers.org, w3id.org\n\nSUCCESS: [2023-09-03T10:33:18] Validated the given resource URI https://doi.org/10.1145/3184558.3191543 is a persistent URL",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/a1-metadata-protocol": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a1-metadata-protocol#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Checking if the resource identifier https://doi.org/10.1145/3184558.3191543 uses a valid protocol, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nFAILURE: [2023-09-03T10:33:18] Could not resolve https://doi.org/10.1145/3184558.3191543. Getting: 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f2-grounded-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f2-grounded-metadata#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Checking if machine readable data (e.g. RDF, JSON-LD) can be retrieved using content-negotiation at https://doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nSUCCESS: [2023-09-03T10:33:19] RDF metadata containing 28 triples found at the subject URL provided.",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/a2-metadata-persistent": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a2-metadata-persistent#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata. It contains 28 triples\n\nINFO: [2023-09-03T10:33:19] Checking RDF metadata to find links to all the alternative identifiers: <http://doi.org/10.1145/3184558.3191543>, <http://dx.doi.org/10.1145/3184558.3191543>, <https://doi.org/10.1145/3184558.3191543>\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for a persistence policy in RDF metadata using predicates: ['http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy']\n\nFAILURE: [2023-09-03T10:33:19] Could not find a persistence policy in the metadata. Searched for the following predicates: ['http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy']",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "identifier_in_metadata": {
+                        "properties": {
+                            "http://prismstandard.org/namespaces/basic/2.1/doi": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/creator": "http://id.crossref.org/contributor/pedro-hernandez-serrano-57vhar6wbab6",
+                            "http://purl.org/dc/terms/date": "2018",
+                            "http://purl.org/dc/terms/identifier": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/publisher": "ACM Press",
+                            "http://purl.org/dc/terms/title": "CrowdED",
+                            "http://purl.org/ontology/bibo/doi": "10.1145/3184558.3191543",
+                            "http://www.w3.org/2002/07/owl#sameAs": "info:doi/10.1145/3184558.3191543"
+                        }
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-semantic": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i1-metadata-knowledge-representation-semantic#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nSUCCESS: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f3-metadata-identifier-in-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f3-metadata-identifier-in-metadata#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:19] Checking RDF metadata to find links to all the alternative identifiers: <http://doi.org/10.1145/3184558.3191543>, <http://dx.doi.org/10.1145/3184558.3191543>, <https://doi.org/10.1145/3184558.3191543>\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found properties/links for the subject URI in the metadata: http://prismstandard.org/namespaces/basic/2.1/doi, http://purl.org/dc/terms/creator, http://purl.org/dc/terms/date, http://purl.org/dc/terms/identifier, http://purl.org/dc/terms/publisher, http://purl.org/dc/terms/title, http://purl.org/ontology/bibo/doi, http://www.w3.org/2002/07/owl#sameAs\n\nSUCCESS: [2023-09-03T10:33:19] Found the metadata identifier in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found a value for a property http://purl.org/dc/terms/title => CrowdED\n\n[2023-09-03T10:33:19] Found titles: CrowdED",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "identifier_in_metadata": {
+                        "properties": {
+                            "http://prismstandard.org/namespaces/basic/2.1/doi": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/creator": "http://id.crossref.org/contributor/pedro-hernandez-serrano-57vhar6wbab6",
+                            "http://purl.org/dc/terms/date": "2018",
+                            "http://purl.org/dc/terms/identifier": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/publisher": "ACM Press",
+                            "http://purl.org/dc/terms/title": "CrowdED",
+                            "http://purl.org/ontology/bibo/doi": "10.1145/3184558.3191543",
+                            "http://www.w3.org/2002/07/owl#sameAs": "info:doi/10.1145/3184558.3191543"
+                        }
+                    },
+                    "title": [
+                        "CrowdED"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f2-structured-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f2-structured-metadata#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Checking if machine readable data (e.g. RDF, JSON-LD) can be retrieved using content-negotiation at https://doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nSUCCESS: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata. It contains 28 triples",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-structured": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i1-metadata-knowledge-representation-structured#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:19] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:19] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nSUCCESS: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata. It contains 28 triples",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i3-metadata-contains-outward-links": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i3-metadata-contains-outward-links#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:19] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:19] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nSUCCESS: [2023-09-03T10:33:19] More than 10 outward links has been found as objects",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f4-searchable": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f4-searchable#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] The subject resource URI https://doi.org/10.1145/3184558.3191543 is a DOI\n\nINFO: [2023-09-03T10:33:19] Checking DataCite API for metadata about the DOI: 10.1145/3184558.3191543\n\nWARN: [2023-09-03T10:33:19] Search in DataCite API failed: data\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Found a value for a property http://purl.org/dc/terms/title => CrowdED\n\nINFO: [2023-09-03T10:33:19] Searching Google Custom Search Engine https://cse.google.com/cse?cx=b6774763e7b060a30 for: CrowdED\n\nWARN: [2023-09-03T10:33:19] Could not find the resource in Google searching for: CrowdED\n\nINFO: [2023-09-03T10:33:19] Searching Bing for: CrowdED\n\nWARN: [2023-09-03T10:33:19] Error running Bing search: 401 Client Error: PermissionDenied for url: https://api.bing.microsoft.com/v7.0/search?q=CrowdED",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "identifier_in_metadata": {
+                        "properties": {
+                            "http://prismstandard.org/namespaces/basic/2.1/doi": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/creator": "http://id.crossref.org/contributor/pedro-hernandez-serrano-57vhar6wbab6",
+                            "http://purl.org/dc/terms/date": "2018",
+                            "http://purl.org/dc/terms/identifier": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/publisher": "ACM Press",
+                            "http://purl.org/dc/terms/title": "CrowdED",
+                            "http://purl.org/ontology/bibo/doi": "10.1145/3184558.3191543",
+                            "http://www.w3.org/2002/07/owl#sameAs": "info:doi/10.1145/3184558.3191543"
+                        }
+                    },
+                    "title": [
+                        "CrowdED"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-known": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i2-fair-vocabularies-known#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:18] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:18] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:18] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:18] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:19] Check if used vocabularies in Linked Open Vocabularies: https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/list\n\nSUCCESS: [2023-09-03T10:33:20] Found vocabularies used by the resource metadata in the Linked Open Vocabularies: http://www.w3.org/2002/07/owl#, http://xmlns.com/foaf/0.1/, http://purl.org/dc/terms/, http://purl.org/ontology/bibo/, http://www.w3.org/2001/XMLSchema#",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/r1-includes-standard-license": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/r1-includes-standard-license#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:19] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:19] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:20] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:20] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:20] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:20] Checking RDF metadata to find links to all the alternative identifiers: <http://doi.org/10.1145/3184558.3191543>, <http://dx.doi.org/10.1145/3184558.3191543>, <https://doi.org/10.1145/3184558.3191543>\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nFAILURE: [2023-09-03T10:33:20] Could not find a license in the subject metadata. We searched for the following predicates: http://purl.org/dc/terms/license ,https://schema.org/license ,http://www.w3.org/1999/xhtml/vocab#license ,http://purl.org/ontology/dvia#hasLicense ,http://creativecommons.org/ns#license ,http://reference.data.gov.au/def/ont/dataset#hasLicense",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "identifier_in_metadata": {
+                        "properties": {
+                            "http://prismstandard.org/namespaces/basic/2.1/doi": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/creator": "http://id.crossref.org/contributor/pedro-hernandez-serrano-57vhar6wbab6",
+                            "http://purl.org/dc/terms/date": "2018",
+                            "http://purl.org/dc/terms/identifier": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/publisher": "ACM Press",
+                            "http://purl.org/dc/terms/title": "CrowdED",
+                            "http://purl.org/ontology/bibo/doi": "10.1145/3184558.3191543",
+                            "http://www.w3.org/2002/07/owl#sameAs": "info:doi/10.1145/3184558.3191543"
+                        }
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/r1-includes-license": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/r1-includes-license#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:19] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:19] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:20] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:20] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:20] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:20] Checking RDF metadata to find links to all the alternative identifiers: <http://doi.org/10.1145/3184558.3191543>, <http://dx.doi.org/10.1145/3184558.3191543>, <https://doi.org/10.1145/3184558.3191543>\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nINFO: [2023-09-03T10:33:20] Found the subject URI in the metadata: http://dx.doi.org/10.1145/3184558.3191543\n\nFAILURE: [2023-09-03T10:33:20] Could not find a license in the subject metadata. We searched for the following predicates: http://purl.org/dc/terms/license ,https://schema.org/license ,http://www.w3.org/1999/xhtml/vocab#license ,http://purl.org/ontology/dvia#hasLicense ,http://creativecommons.org/ns#license ,http://reference.data.gov.au/def/ont/dataset#hasLicense",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "identifier_in_metadata": {
+                        "properties": {
+                            "http://prismstandard.org/namespaces/basic/2.1/doi": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/creator": "http://id.crossref.org/contributor/pedro-hernandez-serrano-57vhar6wbab6",
+                            "http://purl.org/dc/terms/date": "2018",
+                            "http://purl.org/dc/terms/identifier": "10.1145/3184558.3191543",
+                            "http://purl.org/dc/terms/publisher": "ACM Press",
+                            "http://purl.org/dc/terms/title": "CrowdED",
+                            "http://purl.org/ontology/bibo/doi": "10.1145/3184558.3191543",
+                            "http://www.w3.org/2002/07/owl#sameAs": "info:doi/10.1145/3184558.3191543"
+                        }
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-resolve": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i2-fair-vocabularies-resolve#https%3A//doi.org/10.1145/3184558.3191543/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nINFO: [2023-09-03T10:33:19] Validated the resource https://doi.org/10.1145/3184558.3191543 is a URL\n\nWARN: [2023-09-03T10:33:19] Error resolving the URL https://doi.org/10.1145/3184558.3191543 : 403 Client Error: Forbidden for url: https://dl.acm.org/citation.cfm?doid=3184558.3191543\n\nINFO: [2023-09-03T10:33:19] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.1145/3184558.3191543 using extruct\n\nINFO: [2023-09-03T10:33:19] Error when running extruct on https://doi.org/10.1145/3184558.3191543. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:19] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:19] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 28 triples\n\nINFO: [2023-09-03T10:33:19] Successfully found and parsed RDF metadata available at https://doi.org/10.1145/3184558.3191543. It contains 28 triples\n\nINFO: [2023-09-03T10:33:19] Testing URI http://purl.org/dc/terms/creator for the domain purl.org\n\nINFO: [2023-09-03T10:33:19] Validated the resource http://purl.org/dc/terms/creator is a URL\n\nINFO: [2023-09-03T10:33:25] Successfully resolved http://purl.org/dc/terms/creator\n\nINFO: [2023-09-03T10:33:25] Checking for metadata embedded in the HTML page returned by the resource URI http://purl.org/dc/terms/creator using extruct\n\nINFO: [2023-09-03T10:33:25] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 6 triples\n\nINFO: [2023-09-03T10:33:25] Found RDFa metadata embedded in the HTML with extruct\n\nINFO: [2023-09-03T10:33:25] Testing URI http://xmlns.com/foaf/0.1/familyName for the domain xmlns.com\n\nINFO: [2023-09-03T10:33:25] Validated the resource http://xmlns.com/foaf/0.1/familyName is a URL\n\nWARN: [2023-09-03T10:33:25] Error resolving the URL http://xmlns.com/foaf/0.1/familyName : 404 Client Error: Not Found for url: http://xmlns.com/foaf/0.1/familyName\n\nINFO: [2023-09-03T10:33:25] Checking for metadata embedded in the HTML page returned by the resource URI http://xmlns.com/foaf/0.1/familyName using extruct\n\nINFO: [2023-09-03T10:33:25] Error when running extruct on http://xmlns.com/foaf/0.1/familyName. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:25] Content-negotiation: error with http://xmlns.com/foaf/0.1/familyName when asking for text/turtle. Getting 404 Client Error: Not Found for url: http://xmlns.com/foaf/0.1/familyName\n\nINFO: [2023-09-03T10:33:25] Content-negotiation: error with http://xmlns.com/foaf/0.1/familyName when asking for application/ld+json. Getting 404 Client Error: Not Found for url: http://xmlns.com/foaf/0.1/familyName\n\nINFO: [2023-09-03T10:33:25] Content-negotiation: error with http://xmlns.com/foaf/0.1/familyName when asking for text/turtle, application/turtle, application/x-turtle;q=0.9, application/ld+json;q=0.8, application/rdf+xml, text/n3, text/rdf+n3;q=0.7. Getting 404 Client Error: Not Found for url: http://xmlns.com/foaf/0.1/familyName\n\nWARN: [2023-09-03T10:33:25] URI not resolving to RDF: http://xmlns.com/foaf/0.1/familyName (we consider the domain xmlns.com does not resolve to Linked Data)\n\nINFO: [2023-09-03T10:33:25] Testing URI http://www.w3.org/2002/07/owl#sameAs for the domain www.w3.org\n\nINFO: [2023-09-03T10:33:25] Validated the resource http://www.w3.org/2002/07/owl#sameAs is a URL\n\nINFO: [2023-09-03T10:33:26] Successfully resolved http://www.w3.org/2002/07/owl#sameAs\n\nINFO: [2023-09-03T10:33:26] Checking for metadata embedded in the HTML page returned by the resource URI http://www.w3.org/2002/07/owl#sameAs using extruct\n\nINFO: [2023-09-03T10:33:26] Content-negotiation: found some metadata in text/turtle when asking for text/turtle\n\nINFO: [2023-09-03T10:33:26] Successfully parsed text/turtle RDF from content negotiation RDF with parser turtle, containing 450 triples\n\nINFO: [2023-09-03T10:33:26] Testing URI http://prismstandard.org/namespaces/basic/2.1/doi for the domain prismstandard.org\n\nINFO: [2023-09-03T10:33:26] Validated the resource http://prismstandard.org/namespaces/basic/2.1/doi is a URL\n\nWARN: [2023-09-03T10:33:27] Error resolving the URL http://prismstandard.org/namespaces/basic/2.1/doi : 404 Client Error: Not Found for url: http://prismstandard.org/namespaces/basic/2.1/doi\n\nINFO: [2023-09-03T10:33:27] Checking for metadata embedded in the HTML page returned by the resource URI http://prismstandard.org/namespaces/basic/2.1/doi using extruct\n\nINFO: [2023-09-03T10:33:27] Error when running extruct on http://prismstandard.org/namespaces/basic/2.1/doi. Getting: 'NoneType' object has no attribute 'encode'\n\nINFO: [2023-09-03T10:33:27] Content-negotiation: error with http://prismstandard.org/namespaces/basic/2.1/doi when asking for text/turtle. Getting 404 Client Error: Not Found for url: http://prismstandard.org/namespaces/basic/2.1/doi\n\nINFO: [2023-09-03T10:33:28] Content-negotiation: error with http://prismstandard.org/namespaces/basic/2.1/doi when asking for application/ld+json. Getting 404 Client Error: Not Found for url: http://prismstandard.org/namespaces/basic/2.1/doi\n\nINFO: [2023-09-03T10:33:28] Content-negotiation: error with http://prismstandard.org/namespaces/basic/2.1/doi when asking for text/turtle, application/turtle, application/x-turtle;q=0.9, application/ld+json;q=0.8, application/rdf+xml, text/n3, text/rdf+n3;q=0.7. Getting 404 Client Error: Not Found for url: http://prismstandard.org/namespaces/basic/2.1/doi\n\nWARN: [2023-09-03T10:33:28] URI not resolving to RDF: http://prismstandard.org/namespaces/basic/2.1/doi (we consider the domain prismstandard.org does not resolve to Linked Data)\n\nINFO: [2023-09-03T10:33:28] 2 URLs resolving, in 4 domains tested: purl.org, xmlns.com, www.w3.org, prismstandard.org\n\nFAILURE: [2023-09-03T10:33:28] Only 50.0% of the domains URL used by predicates resolves to RDF (60% required). Make sure you are using URIs that resolves to RDF as predicates.",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.1145/3184558.3191543",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.1145/3184558.3191543",
+                        "http://dx.doi.org/10.1145/3184558.3191543",
+                        "https://doi.org/10.1145/3184558.3191543"
+                    ],
+                    "redirect_url": "https://www.w3.org/2002/07/owl#sameAs"
+                }
+            }
+        ]
+    },
+    "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "@id": "https://w3id.org/fair-enough/evaluations/d17fc357eb7eb4a8bb8e47dd5ce4a69cc67e8644",
+    "duration": "10.978855"
+}

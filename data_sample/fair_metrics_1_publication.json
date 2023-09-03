@@ -1,0 +1,1482 @@
+{
+    "_id": "01d0b632dfc56a13da4a6bb5886b6862e31d03fa",
+    "subject": "https://doi.org/10.3233/FAIA200871",
+    "collection": "fair-enough-metadata",
+    "created_at": "2023-09-03T10:22:07",
+    "name": "Evaluation of https://doi.org/10.3233/FAIA200871",
+    "metadata": {},
+    "score": 6,
+    "score_max": 16,
+    "score_percent": 37.5,
+    "@type": "http://semanticscience.org/resource/ProcessStatus",
+    "@context": {
+        "eval": "http://w3id.org/FAIR_Evaluator/schema#",
+        "prov": "https://www.w3.org/ns/prov#",
+        "dct": "http://purl.org/dc/terms/",
+        "schema": "http://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sio": "http://semanticscience.org/resource/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "_id": "http://purl.org/dc/terms/identifier",
+        "title": "http://purl.org/dc/terms/title",
+        "name": "https://schema.org/name",
+        "description": "http://rdfs.org/ns/void#description",
+        "homepage": "http://www.w3.org/ns/dcat#publisher",
+        "author": "http://purl.org/dc/elements/1.1/authoredBy",
+        "creator": "http://purl.org/dc/terms/creator",
+        "created": "http://purl.org/pav/version",
+        "assessments": "http://www.w3.org/ns/ldp#contains",
+        "contains": "http://www.w3.org/ns/ldp#contains",
+        "license": "http://purl.org/dc/terms/license",
+        "duration": "https://schema.org/duration",
+        "summary": "http://semanticscience.org/resource/isDescribedBy",
+        "subject": "http://semanticscience.org/resource/SIO_000332",
+        "collection": "http://www.w3.org/ns/ldp#contains",
+        "created_at": "http://purl.obolibrary.org/obo/date",
+        "score": "http://semanticscience.org/resource/SIO_000300",
+        "score_max": "http://semanticscience.org/resource/hasCapability",
+        "score_percent": "http://semanticscience.org/resource/hasConcretization",
+        "metadata": "http://semanticscience.org/resource/metadata"
+    },
+    "contains": {
+        "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-unique": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f1-metadata-identifier-unique#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Checking if the resource identifier https://doi.org/10.3233/FAIA200871 uses a valid protocol, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nSUCCESS: [2023-09-03T10:22:06] The resource https://doi.org/10.3233/FAIA200871 uses a valid protocol",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-persistent": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f1-metadata-identifier-persistent#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Check if the given resource URI https://doi.org/10.3233/FAIA200871 use a persistent URI, one of: doi.org, purl.org, purl.oclc.org, purl.net, purl.com, identifiers.org, w3id.org\n\nSUCCESS: [2023-09-03T10:22:06] Validated the given resource URI https://doi.org/10.3233/FAIA200871 is a persistent URL",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/a1-metadata-authorization": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a1-metadata-authorization#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Checking if the resource identifier https://doi.org/10.3233/FAIA200871 uses a valid protocol that enables authorization, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nSUCCESS: [2023-09-03T10:22:06] The resource https://doi.org/10.3233/FAIA200871 uses a valid protocol that enables authorization",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/a1-metadata-protocol": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a1-metadata-protocol#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Checking if the resource identifier https://doi.org/10.3233/FAIA200871 uses a valid protocol, such as URL, DOI, or handle\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nSUCCESS: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871.",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ]
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f3-metadata-identifier-in-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f3-metadata-identifier-in-metadata#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:06] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:06] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:06] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:06] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f2-grounded-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f2-grounded-metadata#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Checking if machine readable data (e.g. RDF, JSON-LD) can be retrieved using content-negotiation at https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:06] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/a2-metadata-persistent": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/a2-metadata-persistent#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-semantic": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i1-metadata-knowledge-representation-semantic#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:06] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f4-searchable": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f4-searchable#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:06] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nINFO: [2023-09-03T10:22:07] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] The subject resource URI https://doi.org/10.3233/FAIA200871 is a DOI\n\nINFO: [2023-09-03T10:22:07] Checking DataCite API for metadata about the DOI: 10.3233/FAIA200871\n\nWARN: [2023-09-03T10:22:07] Search in DataCite API failed: data\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-known": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i2-fair-vocabularies-known#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-resolve": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i2-fair-vocabularies-resolve#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i3-metadata-contains-outward-links": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i3-metadata-contains-outward-links#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/r1-includes-standard-license": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/r1-includes-standard-license#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/f2-structured-metadata": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/f2-structured-metadata#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Checking if machine readable data (e.g. RDF, JSON-LD) can be retrieved using content-negotiation at https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:06] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:06] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:06] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:06] Found RDFa metadata embedded in the HTML with extruct\n\nWARN: [2023-09-03T10:22:06] No RDF metadata found, checking for JSON\n\nSUCCESS: [2023-09-03T10:22:07] Successfully found and parsed JSON metadata",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    },
+                    "metadata_json": {
+                        "indexed": {
+                            "date-parts": [
+                                [
+                                    2023,
+                                    6,
+                                    28
+                                ]
+                            ],
+                            "date-time": "2023-06-28T07:33:39Z",
+                            "timestamp": 1687937619726
+                        },
+                        "reference-count": 0,
+                        "publisher": "IOS Press",
+                        "license": [
+                            {
+                                "start": {
+                                    "date-parts": [
+                                        [
+                                            2020,
+                                            12,
+                                            1
+                                        ]
+                                    ],
+                                    "date-time": "2020-12-01T00:00:00Z",
+                                    "timestamp": 1606780800000
+                                },
+                                "content-version": "unspecified",
+                                "delay-in-days": 0,
+                                "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+                            }
+                        ],
+                        "content-domain": {
+                            "domain": [],
+                            "crossmark-restriction": false
+                        },
+                        "published-print": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        },
+                        "abstract": "<jats:p>A challenge in computational legal research is the quantitative assessment of “relevance” in a network of court decisions. The term “sleeping beauty” (SB) was coined to denote an article that received almost no attention immediately after publication, but suddenly received multiple citations many years later. These publications can be identified by calculating their Beauty coefficient (B-coefficient). In this contribution, we apply approaches used for identifying SBs to decisions arising from the Court of Justice of the European Union (CJEU). We compared B-coefficients of CJEU cases with their centrality scores from classical algorithms from network analysis, finding that these measures tend to correlate. We discuss the implications of this that are interesting for legal scholars, acknowledging that future work is required to calibrate the scale of the time variable in the B-coefficient formula for finer-grained application to case law. Our study’s setup provides a foundation for new case law analytics methodologies that extends the power of traditional network analysis techniques for answering questions about the behavior of European courts.</jats:p>",
+                        "DOI": "10.3233/faia200871",
+                        "type": "book-chapter",
+                        "created": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    3
+                                ]
+                            ],
+                            "date-time": "2020-12-03T11:54:08Z",
+                            "timestamp": 1606996448000
+                        },
+                        "source": "Crossref",
+                        "is-referenced-by-count": 1,
+                        "title": "Sleeping Beauties in Case Law",
+                        "prefix": "10.3233",
+                        "author": [
+                            {
+                                "given": "Pedro V.",
+                                "family": "Hernandez Serrano",
+                                "sequence": "first",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Kody",
+                                "family": "Moodley",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    },
+                                    {
+                                        "name": "Faculty of Law, Maastricht University, p.hernandezserrano@maastrichtuniversity.nl; kody.moodley@maastrichtuniversity.nl; gijs.vandijck@maastrichtuniversity.nl; michel.dumontier@maastrichtuniversity.nl"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Gijs",
+                                "family": "Van Dijck",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Faculty of Law, Maastricht University, p.hernandezserrano@maastrichtuniversity.nl; kody.moodley@maastrichtuniversity.nl; gijs.vandijck@maastrichtuniversity.nl; michel.dumontier@maastrichtuniversity.nl"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Michel",
+                                "family": "Dumontier",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    }
+                                ]
+                            }
+                        ],
+                        "member": "7437",
+                        "container-title": "Frontiers in Artificial Intelligence and Applications",
+                        "original-title": [],
+                        "link": [
+                            {
+                                "URL": "http://ebooks.iospress.nl/pdf/doi/10.3233/FAIA200871",
+                                "content-type": "unspecified",
+                                "content-version": "vor",
+                                "intended-application": "similarity-checking"
+                            }
+                        ],
+                        "deposited": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    3
+                                ]
+                            ],
+                            "date-time": "2020-12-03T11:54:09Z",
+                            "timestamp": 1606996449000
+                        },
+                        "score": 1,
+                        "resource": {
+                            "primary": {
+                                "URL": "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                            }
+                        },
+                        "subtitle": [],
+                        "short-title": [],
+                        "issued": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        },
+                        "references-count": 0,
+                        "URL": "http://dx.doi.org/10.3233/FAIA200871",
+                        "relation": {},
+                        "ISSN": [
+                            "0922-6389",
+                            "1879-8314"
+                        ],
+                        "published": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-structured": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/i1-metadata-knowledge-representation-structured#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:06] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nWARN: [2023-09-03T10:22:07] No RDF metadata found, searching for JSON\n\nSUCCESS: [2023-09-03T10:22:07] Successfully found and parsed JSON metadata",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    },
+                    "metadata_json": {
+                        "indexed": {
+                            "date-parts": [
+                                [
+                                    2023,
+                                    6,
+                                    28
+                                ]
+                            ],
+                            "date-time": "2023-06-28T07:33:39Z",
+                            "timestamp": 1687937619726
+                        },
+                        "reference-count": 0,
+                        "publisher": "IOS Press",
+                        "license": [
+                            {
+                                "start": {
+                                    "date-parts": [
+                                        [
+                                            2020,
+                                            12,
+                                            1
+                                        ]
+                                    ],
+                                    "date-time": "2020-12-01T00:00:00Z",
+                                    "timestamp": 1606780800000
+                                },
+                                "content-version": "unspecified",
+                                "delay-in-days": 0,
+                                "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+                            }
+                        ],
+                        "content-domain": {
+                            "domain": [],
+                            "crossmark-restriction": false
+                        },
+                        "published-print": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        },
+                        "abstract": "<jats:p>A challenge in computational legal research is the quantitative assessment of “relevance” in a network of court decisions. The term “sleeping beauty” (SB) was coined to denote an article that received almost no attention immediately after publication, but suddenly received multiple citations many years later. These publications can be identified by calculating their Beauty coefficient (B-coefficient). In this contribution, we apply approaches used for identifying SBs to decisions arising from the Court of Justice of the European Union (CJEU). We compared B-coefficients of CJEU cases with their centrality scores from classical algorithms from network analysis, finding that these measures tend to correlate. We discuss the implications of this that are interesting for legal scholars, acknowledging that future work is required to calibrate the scale of the time variable in the B-coefficient formula for finer-grained application to case law. Our study’s setup provides a foundation for new case law analytics methodologies that extends the power of traditional network analysis techniques for answering questions about the behavior of European courts.</jats:p>",
+                        "DOI": "10.3233/faia200871",
+                        "type": "book-chapter",
+                        "created": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    3
+                                ]
+                            ],
+                            "date-time": "2020-12-03T11:54:08Z",
+                            "timestamp": 1606996448000
+                        },
+                        "source": "Crossref",
+                        "is-referenced-by-count": 1,
+                        "title": "Sleeping Beauties in Case Law",
+                        "prefix": "10.3233",
+                        "author": [
+                            {
+                                "given": "Pedro V.",
+                                "family": "Hernandez Serrano",
+                                "sequence": "first",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Kody",
+                                "family": "Moodley",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    },
+                                    {
+                                        "name": "Faculty of Law, Maastricht University, p.hernandezserrano@maastrichtuniversity.nl; kody.moodley@maastrichtuniversity.nl; gijs.vandijck@maastrichtuniversity.nl; michel.dumontier@maastrichtuniversity.nl"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Gijs",
+                                "family": "Van Dijck",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Faculty of Law, Maastricht University, p.hernandezserrano@maastrichtuniversity.nl; kody.moodley@maastrichtuniversity.nl; gijs.vandijck@maastrichtuniversity.nl; michel.dumontier@maastrichtuniversity.nl"
+                                    }
+                                ]
+                            },
+                            {
+                                "given": "Michel",
+                                "family": "Dumontier",
+                                "sequence": "additional",
+                                "affiliation": [
+                                    {
+                                        "name": "Institute of Data Science at Maastricht University"
+                                    }
+                                ]
+                            }
+                        ],
+                        "member": "7437",
+                        "container-title": "Frontiers in Artificial Intelligence and Applications",
+                        "original-title": [],
+                        "link": [
+                            {
+                                "URL": "http://ebooks.iospress.nl/pdf/doi/10.3233/FAIA200871",
+                                "content-type": "unspecified",
+                                "content-version": "vor",
+                                "intended-application": "similarity-checking"
+                            }
+                        ],
+                        "deposited": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    3
+                                ]
+                            ],
+                            "date-time": "2020-12-03T11:54:09Z",
+                            "timestamp": 1606996449000
+                        },
+                        "score": 1,
+                        "resource": {
+                            "primary": {
+                                "URL": "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                            }
+                        },
+                        "subtitle": [],
+                        "short-title": [],
+                        "issued": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        },
+                        "references-count": 0,
+                        "URL": "http://dx.doi.org/10.3233/FAIA200871",
+                        "relation": {},
+                        "ISSN": [
+                            "0922-6389",
+                            "1879-8314"
+                        ],
+                        "published": {
+                            "date-parts": [
+                                [
+                                    2020,
+                                    12,
+                                    1
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "https://w3id.org/fair-enough/metrics/tests/r1-includes-license": [
+            {
+                "@id": "https://w3id.org/fair-enough/metrics/metrics/r1-includes-license#https%3A//doi.org/10.3233/FAIA200871/result-2023-06-07T21:30:09+01:00",
+                "@type": [
+                    "http://fairmetrics.org/resources/metric_evaluation_result"
+                ],
+                "http://purl.obolibrary.org/obo/date": [
+                    {
+                        "@value": "2023-06-07T21:30:09+01:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                ],
+                "http://schema.org/softwareVersion": [
+                    {
+                        "@value": "0.1.0",
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://schema.org/comment": [
+                    {
+                        "@value": "INFO: [2023-09-03T10:22:07] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Validated the resource https://doi.org/10.3233/FAIA200871 is a URL\n\nINFO: [2023-09-03T10:22:07] Successfully resolved https://doi.org/10.3233/FAIA200871\n\nINFO: [2023-09-03T10:22:07] Request was redirected to https://ebooks.iospress.nl/doi/10.3233/FAIA200871, adding to the list of alternative URIs for the subject\n\nINFO: [2023-09-03T10:22:07] Checking for metadata embedded in the HTML page returned by the resource URI https://doi.org/10.3233/FAIA200871 using extruct\n\nINFO: [2023-09-03T10:22:07] Successfully parsed json-ld RDF from HTML embedded RDFa with parser json-ld, containing 1 triples\n\nINFO: [2023-09-03T10:22:07] Found RDFa metadata embedded in the HTML with extruct\n\nFAILURE: [2023-09-03T10:22:07] No RDF metadata found at the subject URL https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000332": [
+                    {
+                        "@value": "https://doi.org/10.3233/FAIA200871",
+                        "@language": "en"
+                    }
+                ],
+                "http://semanticscience.org/resource/SIO_000300": [
+                    {
+                        "@value": 0,
+                        "@type": "http://www.w3.org/2001/XMLSchema#float"
+                    }
+                ],
+                "http://semanticscience.org/resource/metadata": {
+                    "alternative_uris": [
+                        "http://doi.org/10.3233/FAIA200871",
+                        "https://doi.org/10.3233/FAIA200871",
+                        "http://dx.doi.org/10.3233/FAIA200871",
+                        "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                        "http://ebooks.iospress.nl/doi/10.3233/FAIA200871"
+                    ],
+                    "redirect_url": "https://ebooks.iospress.nl/doi/10.3233/FAIA200871",
+                    "extruct": {
+                        "microdata": [],
+                        "json-ld": [],
+                        "opengraph": [],
+                        "microformat": [],
+                        "rdfa": [
+                            {
+                                "@id": "",
+                                "http://www.w3.org/1999/xhtml/vocab#license": [
+                                    {
+                                        "@id": "https://creativecommons.org/licenses/by-nc/4.0/deed.en_US"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dublincore": [
+                            {
+                                "namespaces": {},
+                                "elements": [
+                                    {
+                                        "name": "DC.type",
+                                        "content": "Text",
+                                        "URI": "http://purl.org/dc/elements/1.1/type"
+                                    }
+                                ],
+                                "terms": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "@id": "https://w3id.org/fair-enough/evaluations/01d0b632dfc56a13da4a6bb5886b6862e31d03fa",
+    "duration": "1.832853"
+}
