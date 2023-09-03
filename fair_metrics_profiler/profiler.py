@@ -29,7 +29,30 @@ def process_evaluation_data(data_sample):
     """
     Processes the evaluation data for a given DOI and returns the results as a dictionary.
     """
-    attributes = [ ... ]  # This remains the same as before, list of all attributes
+    attributes = [
+    "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-persistent",
+    "https://w3id.org/fair-enough/metrics/tests/f1-metadata-identifier-unique",
+    "https://w3id.org/fair-enough/metrics/tests/a1-metadata-authorization",
+    "https://w3id.org/fair-enough/metrics/tests/a1-metadata-protocol",
+    "https://w3id.org/fair-enough/metrics/tests/f2-structured-metadata",
+    "https://w3id.org/fair-enough/metrics/tests/f1-data-identifier-persistent",
+    "https://w3id.org/fair-enough/metrics/tests/f3-metadata-identifier-in-metadata",
+    "https://w3id.org/fair-enough/metrics/tests/i3-metadata-contains-outward-links",
+    "https://w3id.org/fair-enough/metrics/tests/r1-includes-license",
+    "https://w3id.org/fair-enough/metrics/tests/f2-grounded-metadata",
+    "https://w3id.org/fair-enough/metrics/tests/a1-data-protocol",
+    "https://w3id.org/fair-enough/metrics/tests/a1-data-authorization",
+    "https://w3id.org/fair-enough/metrics/tests/a2-metadata-persistent",
+    "https://w3id.org/fair-enough/metrics/tests/f3-data-identifier-in-metadata",
+    "https://w3id.org/fair-enough/metrics/tests/i1-data-knowledge-representation-structured",
+    "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-structured",
+    "https://w3id.org/fair-enough/metrics/tests/f4-searchable",
+    "https://w3id.org/fair-enough/metrics/tests/i1-data-knowledge-representation-semantic",
+    "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-known",
+    "https://w3id.org/fair-enough/metrics/tests/i1-metadata-knowledge-representation-semantic",
+    "https://w3id.org/fair-enough/metrics/tests/r1-includes-standard-license",
+    "https://w3id.org/fair-enough/metrics/tests/i2-fair-vocabularies-resolve"
+    ]
 
     rows = []
 
